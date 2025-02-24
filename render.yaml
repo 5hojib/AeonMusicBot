@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: musicbot
+    env: docker
+    region: Frankfurt
+    plan: free
+    envVars:
+      - key: UPSTREAM_REPO
+        # value: ""
+        sync: false
+      - key: UPSTREAM_BRANCH
+        value: "main"
+      - key: BASE_URL
+        value: ""
