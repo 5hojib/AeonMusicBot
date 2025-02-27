@@ -1,7 +1,5 @@
-aiofiles
 electrogram
 pytz
-requests
 gunicorn
 Flask
 gevent
