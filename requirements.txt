@@ -1,5 +1,7 @@
 aiofiles
 pyrotgfork
+pymongo
+electrocrypto
 pytz
 gunicorn
 Flask
